@@ -1,4 +1,4 @@
-#Basic Commands for my Kubernetes Study
+# Basic Commands for my Kubernetes Study
 
 Create resources using yml file.
 kubectl create -f .\nginx-app.yml
