@@ -1,16 +1,6 @@
-# Basic Commands for my Kubernetes Study
+# My Kubernetes Study
 
-Create resources using yml file.
-kubectl create -f .\nginx-app.yml
+This Repository is for my study in Kubernetes
+The files and script here is heavily beased on the course path in Pluralsight for kubernetes Administration
 
-Apply Updates after changing the yml file
-kubectl apply -f .\nginx-app.yml --record=true
-
-Show the progress of the Deployment
-kubectl rollout status deployment my-nginx
-
-Get the history of deployments
-kubectl rollout history deployment
-
-Start a Rollback of a Deployment for a previous revision
-kubectl rollout undo deployment my-nginx --to-revision=
+Folow the course link [here](https://app.pluralsight.com/paths/skills/kubernetes-administration)
